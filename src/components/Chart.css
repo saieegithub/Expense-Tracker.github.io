@@ -1,0 +1,11 @@
+.dFlex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin:  0 auto;
+    width: 85%;
+    padding: 1px;
+    height: 20vh;
+    background-color: rgb(227, 174, 238);
+    border-radius: 10px;
+}

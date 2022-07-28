@@ -1,0 +1,103 @@
+.expenseListMain{
+   width: 90%; 
+   margin:  auto; 
+   border-radius: 20px; 
+   display: grid;
+   grid-template-columns: 1fr ;
+   justify-content: space-around;
+ 
+     
+} 
+
+.expenseList{
+    width: 92%;
+    background-color: rgb(94, 90, 90);
+    margin: 2% ;
+    padding: 20px 30px 20px 5px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    align-items: center;
+
+}
+.mainVessel{
+    display: grid;
+    align-items: center;
+    width:90%;
+    height:100%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: black;
+    padding-bottom: 10px;
+ 
+}
+
+.item{
+    color: white;
+    font-size: 1.5rem;
+}
+.price{
+    box-shadow: 0px 0px 5px 0px rgb(213, 211, 211);
+    width: fit-content;
+    height: fit-content;
+    background-color:  rgba(98, 3, 95, 0.876);
+    border-radius: 10px;
+    border: solid 2px  rgb(228, 224, 224);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+.edit{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 0px 5px 0px rgb(213, 211, 211);
+    border: solid 2px  rgb(228, 224, 224);
+    height:7vh;
+    padding: 8px;
+    background-color: rgb(2, 44, 2);
+    margin: 5px;
+    font-size: 1.2rem;
+}
+.delete{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0px 0px 5px 0px rgb(213, 211, 211);
+    border: solid 2px  rgb(228, 224, 224);
+    height: 7vh;
+    padding: 8px;
+    background-color: rgb(61, 3, 3);
+    margin: 5px;
+    font-size:1.2rem;
+}
+@media(max-width: 562px ){
+    .item, .price {
+        font-size: 0.8rem;
+        padding: 4px;
+    } 
+    .edit, .delete{
+        font-size:0.8rem
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

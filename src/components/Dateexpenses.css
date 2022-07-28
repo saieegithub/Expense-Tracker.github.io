@@ -1,0 +1,22 @@
+.dateContainer{
+    box-shadow: 0px 0px 5px 0px rgb(213, 211, 211);
+    width: 100px;
+    height: 90px;
+    font-size: 1rem;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px rgb(228, 224, 224);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+@media(max-width: 562px ){
+    .dateContainer{
+        width: 80px;
+        height: 70px;
+        font-size: 0.8rem;
+    }
+}

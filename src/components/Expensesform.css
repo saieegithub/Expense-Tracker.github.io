@@ -1,0 +1,101 @@
+.dNone{
+    display: none;
+}
+.dBlock{
+    display: block;
+}
+.mainContainer{
+    height: 300vh;
+}
+form{
+    width: 100%;
+    padding-top: 30px;
+    
+}
+.formContainer{
+    width: 88%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    background-color: rgb(174, 94, 194);
+    border-radius: 10px;
+
+  
+}
+.formContainerInner{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.title input {
+    padding-left: 10px;
+    width: 95%;
+    height: 65%;    
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    font-size:1rem;
+}
+.amount input{
+    padding-left: 10px;
+    width: 95%;
+    height: 65%;    
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+    font-size:1rem; 
+}
+.date input{
+    padding-left: 10px;
+    width: 95%;
+    height: 35%; 
+    border-radius: 5px;
+    margin: 20px;
+    border: none;
+}
+.date{
+    margin-top: 20px;
+}
+.title label, .amount label {
+  margin-left: 15px;
+}
+.date label{
+    margin-left: 20px;
+}
+.addExpenses input{
+   background-color: rgba(75, 5, 73, 0.876);
+   color: white;
+   font-size:1.2rem;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 60px;
+   height: 40%;
+   width: 40%;
+   border: none;
+  
+}
+
+button{
+   background-color: rgba(98, 3, 99, 0.876);
+   border-radius: 10px;
+   border: none;
+   color: white;
+   font-size:1.2rem;
+   cursor: pointer;
+   height: 90px;
+   width: 30%;
+   margin:   auto ;
+   align-items: center;
+
+}
+@media(max-width: 562px ){
+    .addExpenses input{
+        font-size:0.8rem;
+        height: 30%;
+        }
+        .amount input{
+         
+            width: 75%;
+          font-size:0.8rem; 
+        }
+       
+}

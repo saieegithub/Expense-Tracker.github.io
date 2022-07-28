@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rootMain{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(102, 100, 100);
+    margin: 0 auto;
+}
+
+
